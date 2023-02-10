@@ -7,7 +7,7 @@ const port = 8080;
 const host = '0.0.0.0';
 
 app.get('/', (req, res) => {
-  res.send('Hello World for NodeJs Dockerized application ! - Wassim Kaouia');
+  res.send('Hello World for NodeJs Dockerized application (This code is created by stevemar) ! - Wassim Kaouia');
 })
 
 app.listen(port, host);
