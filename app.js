@@ -7,7 +7,7 @@ const port = 8080;
 const host = '0.0.0.0';
 
 app.get('/', (req, res) => {
-  res.send('Hello World from IBM Cloud Essentials!');
+  res.send('Hello World for NodeJs Dockerized application ! - Wassim Kaouia');
 })
 
 app.listen(port, host);
